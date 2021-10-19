@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-compatiable" content="IE= edge,chrome=1">
+    <meta name="Handheldfriendly" content="true">
+
+    <title>THE WATCH COLLECTION </title>
+    <style>
+        /* media queries: tablet landscape */
+        @media screen and (max-width :1060px) {
+            #primary {
+                width: 67%;
+            }
+
+            #secondary {
+                width: 30%;
+                margin: left 3%;
+
+            }
+
+        }
+
+        /* media queries: tabled portrait */
+        @media screen and (max-width:768px) {
+            #primary {
+                width: 100%;
+            }
+
+            #secondary {
+                width: 100%;
+                margin: 0;
+                border: none;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+
+                @media (min - devive- width: 600px) {
+                    img[ data- src-600px] {
+                        content: attr(data-src-800px, url);
+                    }
+
+                }
+
+            }
+
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        html {
+            font-size: 100%;
+        }
+
+        @media (min-width: 640px) {
+            body {
+                font-size: 1rem;
+            }
+
+        }
+
+        @media (min-width:90px) {
+            body {
+                font-size: 1.2rem;
+            }
+
+        }
+
+        @media (min-width:1100px) {
+            body {
+                font-size: 1.5rem;
+            }
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .first {
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid;
+
+            margin: 20px;
+            padding: 20px;
+            text-align: right;
+            border-radius: 75px;
+            color: white;
+            text-transform: capitalize;
+            width: 3550px;
+
+        }
+
+
+        .container {
+            margin: 10px;
+            padding: 10px;
+            background-color: rgba(57, 59, 184, 0.47);
+            border-radius: 75px;
+            text-align: right;
+            display: flex;
+            flex-wrap: wrap;
+            display: flexbox;
+            position: relative;
+            justify-content: center;
+
+
+
+        }
+
+        body {
+            background-image: url("https://source.unsplash.com/1600x900/?watch,clock,time");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+
+
+
+        }
+
+
+
+
+
+
+
+        .button {
+            border: 1px solid rgb(0, 255, 13);
+            background-color: rgba(0, 0, 0, 0.733);
+            border-radius: 10px;
+
+            padding: 15px;
+            margin: 0px 10px;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: bolder;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            z-index: -1;
+            bottom: 5vh;
+
+
+
+
+
+
+        }
+
+        .third {
+
+            text-shadow: 10px;
+            display: inline-block;
+            text-transform: capitalize;
+            font-weight: bolder;
+            text-rendering: optimizeSpeed;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px;
+            position: relative;
+            left: 55vw;
+
+
+        }
+
+        .four {
+            margin: 10px 0px;
+            padding: 0px 0px;
+            text-transform: lowercase;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            left: 450vw;
+            justify-content: center;
+            color: rgba(247, 247, 6, 0.541);
+            text-decoration: none;
+
+        }
+
+        .five {
+            text-align: right;
+            margin: 0 40px;
+            padding: 0 40px;
+            display: flex;
+            flex: left;
+            justify-content: center;
+        }
+
+        .six {
+
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex: right;
+            justify-content: center;
+            font-size: 55px;
+
+        }
+
+        .seven {
+
+
+            color: rgb(113, 252, 0);
+
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-transform: capitalize;
+            text-shadow: 100px;
+            text-align: center;
+
+
+
+
+
+        }
+
+        .eight {
+            border: 5px solid white;
+            border-radius: 60px;
+            padding: 5vh;
+            margin: 5vh;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            color: rgba(236, 198, 46, 0.425);
+
+
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 10px;
+            text-align: bottom;
+            z-index: -1;
+
+
+
+        }
+
+        .nine {
+
+            margin: 0% 0% 4% 0%;
+            padding: 0;
+            text-align: center;
+            color: white;
+            font-size: 55px;
+            font-weight: bolder;
+            font-style: italic;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+
+        .ten {
+            background-color: black;
+
+            border: 1px solid rgba(0, 0, 0, 0.982);
+            color: rgb(162, 2, 255);
+            text-align: center;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 75px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+
+
+        }
+
+        .eleven {
+            margin: 0 10px;
+            padding: 0 10px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .box1 {
+            position: sticky;
+            bottom: 5px;
+            color: rgb(255, 251, 251);
+            display: inline;
+            display: flex;
+            flex-wrap: wrap;
+            word-wrap: wrap;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bolder;
+            justify-content: center;
+            text-align: center;
+            width: 30%;
+            height: 20%;
+            margin: 0vh;
+            padding: 3vw;
+
+
+        }
+
+
+        .footer {
+            background-color: rgb(135 131 131);
+            text-align: center;
+            font-size: 29px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+            text-transform: capitalize;
+            margin: 21% 0% 0% 0%;
+            padding: 10% 2% 10% 2%;
+
+        }
+
+        .image {
+
+            display: flex;
+            flex-wrap: wrap;
+            -ms-flex-item-align: center;
+            justify-content: center;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="ten">
+            <img src="image/toppng.com-wrist-band-watch-1200x800.png" width="250px" height="250px" alt="my image">
+            <H1> THE WATCH COLLECTION</H1>
+            <h6>by vikas singh</h6>
+            <video src="Watch ( Product) Videography.mp4" autoplay muted width="1450vw" height="450vh" loop>
+            </video>
+
+        </div>
+
+
+        <div class="container">
+
+
+            <nav class="first">
+
+
+                <div class="five" title="the website logo "><img src="image/toppng.com-wrist-band-watch-1200x800.png"
+                        width="250px" height="150px" alt="logo">
+                </div>
+
+
+
+                <div class="six">
+                    <br>
+
+
+                    <H3> MY WATCH COLLECTION </H3>
+
+
+                </div>
+
+                <div class="button">
+
+                    <div class="four " title="navigation tool">
+                        <a href="home.html" style="text-decoration: none;"> <button class="button"> home
+                            </button></a>
+                    </div>
+
+
+
+                    <div class="four">
+                        <a href="about.html" style="text-decoration: none;"> <button class="button">
+                                about</button></a>
+                    </div>
+
+
+
+                    <div class="four">
+                        <a href="contact.html" style="text-decoration: none;"> <button class="button">
+                                contact</button></a>
+                    </div>
+
+
+
+
+                    <div class="four">
+                        <a href="fill your form.html" style="text-decoration: none;"><button class="button">fill
+                                your form</button></a>
+                    </div>
+
+
+                </div>
+
+                <div class="four" title="follow on social media">
+
+                    <a href="http://google.com"><img src="image/pngegg.png" width="30px" height="30px" alt="google"></a>
+                    <a href="http://facebook.com"><img src="image/pngegg (1).png" width="40px" height="30px"
+                            alt="facebook"></a>
+                    <a href="http://gmail.com"><img src="image/pngegg (2).png" width="40px" height="30px"
+                            alt="gmail"></a>
+
+                    <a href="http://instagram.com"><img src="image/pngegg (3).png" width="34px" height="30px"
+                            height="36px" alt="instagram"></a>
+
+                </div>
+
+
+                <center>
+                    <h6>follow on social media platform</h6>
+                </center>
+
+
+
+
+            </nav>
+
+
+        </div>
+    </header>
+    <main>
+        <div class="seven">
+
+
+            <video src="y2mate.com - Fake Watch Ad  by Seb_1080p.mp4" height="700vh" width="1250vw" autoplay muted
+                loop></video>
+
+
+            <h1>the interoduction of wrist watch</h1>
+
+        </div>
+        <div class="box1">
+            <h1>
+                <a href="fill your form.html"> <button class="button" title="fill your form">fill your form
+                    </button></a>
+            </h1>
+            <p> Introduction about wrist watches
+                A wristwatch is designed to be worn around the wrist, attached by a watch strap or other type of
+                bracelet, including metal bands, leather straps or any other kind of bracelet.
+            </p>
+        </div>
+
+        <br>
+        <div class="container">
+            <div>
+                <div class="image"> <img src="https://source.unsplash.com/1600x900/?watch,clock,time" width="950px"
+                        height="450px" alt="1"> </div>
+
+                <div class="image"> <img src="https://source.unsplash.com/1600x900/?watch," width="950px" height="450px"
+                        alt="2"> </div>
+
+                <div class="image"> <img
+                        src="https://source.unsplash.com/1600x900/?watch,clock,time,gearwatch,digitalwatch"
+                        width="950px" height="450px" alt="3"> </div>
+
+                <div class="image"> <img src="https://source.unsplash.com/1600x900/?watch,clock,time,gearwatch,"
+                        width="950px" height="450px" alt="4"> </div>
+
+                <div class="image"> <img src="https://source.unsplash.com/1600x900/?watch,clock,time" width="950px"
+                        height="450px" alt="5"> </div>
+
+                <div class="image"><img src="https://source.unsplash.com/1600x900/?watch,clock,time," width="950px"
+                        height="450px" alt="6"> </div><br><br>
+
+
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <h1>
+                copyright: the watch collection
+                by vikas singh &copy company right.
+            </h1>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
