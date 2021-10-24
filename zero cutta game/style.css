@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water,white');
+}
+nav{
+    background-color: rgb(13, 129, 9);
+    color: white;
+    justify-content: center;
+    height: 125px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gamebox{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mainbox{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family:  sans-serif;
+    position: relative;
+}
+
+.box{
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 180px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgba(49, 51, 48, 0.322);
+}
+
+.information {
+    font-size: 50px;
+    display: block;
+}
+
+.Info{
+    padding: 0 34px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.Info h1{
+    font-size: 34px;
+}
+
+.gif img{
+    width: 0;
+    transition: width 1s ease-out;
+}
+.fire img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset {
+    margin: 2% 39%;
+    padding: 1px 19px;
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.cut{
+    background-color: black;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: #000000;
+    transition: width 1s ease-in-out;
+}
+
+
+@media screen and (max-width: 950px)
+{
+    .gamebox{
+        flex-wrap: wrap;
+    }
+    .information{
+        margin-top: 34px;
+    }
+    .Info h1{
+        font-size: 1.5rem;
+    }
+    .mainbox { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+}
+footer{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    color: white;
+    font-family: fangsong;
+    background-color: #00000093;
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5% 5% 5%;;
+}
