@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<!--
+
 **Iamvikassingh/Iamvikassingh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 # Hi there, I'm Vikas Singh! 👋
 
@@ -37,7 +37,7 @@ In total, I have a strong command over more than 10 technologies and tools, whic
 "Code is like humor. When you have to explain it, it’s bad." – Cory House
 
 Here are some ideas to get you started:
-
+<!--
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
